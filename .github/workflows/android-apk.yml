@@ -15,10 +15,9 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-          
-      - uses: gradle/actions/setup-gradle@v4
 
-      # Bigyan ng execution permission ang gradlew script para maiwasan ang permission denied error
+      # Tinanggal muna natin ang gradle/actions/setup-gradle@v4 para maiwasan ang JAR validation error
+
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
