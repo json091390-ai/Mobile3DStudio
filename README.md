@@ -1,1 +1,2 @@
-# Mobile3DStudio
+# Mobile 3D Studio starter
+Android WebView + Three.js prototype with basic primitives, color/scale controls, orbit camera and JSON scene save. Build with JDK 17, Android SDK Platform 35, and `gradle assembleDebug`. APK output: `app/build/outputs/apk/debug/app-debug.apk`. Three.js loads from jsDelivr, so internet is required. This is an early prototype; advanced modeling, rigging, GLB export and full offline support are not implemented. Build has not been verified in this environment.
